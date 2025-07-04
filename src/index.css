@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --h-3/4: calc(3/4 * 100%);
+}
+
+html {
+  background-color: black;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
