@@ -3,7 +3,7 @@ import { keepPreviousData } from "@tanstack/react-query";
 import axios from "axios";
 import { useMemo } from "react";
 
-const api_key = '';
+const api_key = 'tKe4eacDnb8czalBaIVsAqO41Sq6GjyV';
 const api = axios.create({
   baseURL: "https://api.giphy.com/v1/gifs",
 });
